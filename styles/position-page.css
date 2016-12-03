@@ -1,1 +1,15 @@
+nav {
+  background-color: gray;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+}
 
+.logo {
+  position: absolute;
+  left: 10px;
+}
+
+main {
+	background-image: url('images/outerspace_landscape.jpeg') cover no-repeat;
+}

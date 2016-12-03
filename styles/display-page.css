@@ -1,0 +1,53 @@
+main {
+  padding-top: 60px;
+}
+
+.container {
+	width: 800px;
+	font-size: 0;
+	margin: auto;
+}
+
+.container > div > div {
+	border: 1px solid black;
+}
+
+.top {
+	height: 200px;
+}
+
+.bottom {
+	height: 300px;
+}
+
+.top > div {
+	height: inherit;
+	width: 50%;
+	display: inline-block;
+}
+
+.top-left {
+	background-color: green;
+}
+
+.top-right {
+	background-color: blue;
+}
+
+.bottom > div {
+	height: inherit;
+	width: 33.33%;
+	display: inline-block;
+}
+
+.bottom-left {
+	background-color: grey;
+}
+
+.bottom-mid {
+	background-color: black;
+}
+
+.bottom-right {
+	background-color: orange;
+}
