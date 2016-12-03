@@ -11,12 +11,12 @@ main {
   margin-right: auto;
 }
 
-.left {
+img.left {
 	float: left;
 	width: 300px;
 }
 
-.right {
+img.right {
 	float: right;
 	width: 300px;
 }
